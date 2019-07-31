@@ -25,7 +25,7 @@ public class TestGit extends HttpServlet{
 		
 		pw.write("<html>");
 		pw.write("<body>");
-		pw.write("Hello World Servlet : " + sdf.format(date));
+		pw.write("hello, Today : " + sdf.format(date));
 		pw.write("</body>");
 		pw.write("</html>");
 		
